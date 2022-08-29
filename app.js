@@ -8,8 +8,8 @@ useru = require("./Models/candidates");
 controlleru = require("./controller/controller");
 
 //mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://18.237.42.182/my"); // live
-// mongoose.connect("mongodb:///Candidate"); // local
+mongoose.connect("mongodb://localhost/insta"); // live
+// mongoose.connect("mongodb://localhost/Instagram", { useMongoClient: true }); // local
 var path = __dirname;
 // app.use("/videoapp/data", express.static(path + "/data"));
 
